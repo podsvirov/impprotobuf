@@ -4,7 +4,7 @@ project(impprotobuf)
 
 find_package(protobuf CONFIG REQUIRED)
 
-message(STATUS "Using Protocol Buffers ${protobuf_VERSION}")
+message(STATUS "Using Protocol Buffers ${protobuf_VERSION_STRING}")
 
 aux_source_directory(. SRC_LIST)
 

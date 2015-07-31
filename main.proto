@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package imp;
+
+message Message {
+  string text = 1;
+}
